@@ -1,11 +1,18 @@
 body {
-  background: #fff;
+  background: #333;
   color: #000;
   text-align: center;
 }
-
 article {
-  width:80%;
-  margin:auto;
-  text-align:justify;
+  width: 80%;
+  margin: 2em auto;
+  text-align: justify;
+  background: #eee;
+  padding: 0.5em 1em;
+}
+h1 {
+  color: #eee;
+}
+h2 {
+  border-bottom: 3px solid #ccc;
 }
