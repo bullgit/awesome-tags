@@ -1,0 +1,11 @@
+body {
+  background: #fff;
+  color: #000;
+  text-align: center;
+}
+
+article {
+  width:80%;
+  margin:auto;
+  text-align:justify;
+}

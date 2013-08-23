@@ -1,0 +1,9 @@
+.irony{
+    display: inline-block;
+    animation: irony 0.9s linear infinite;
+}
+@keyframes irony {
+  0% { transform: skew(-15deg,0deg); }
+  50% { transform: skew(15deg, 0deg); }
+  100% { transform: skew(-15deg,0deg); }
+}
