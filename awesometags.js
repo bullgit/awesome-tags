@@ -9,7 +9,7 @@ $(document).ready(function(){
   //Pony
   $("body").find("pony").addClass('pony').lettering();
 });
-
+ 
  
 /*
 * Lettering.JS 0.6.1
