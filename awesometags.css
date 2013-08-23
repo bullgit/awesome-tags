@@ -1,3 +1,4 @@
+/* Irony */
 .irony{
     display: inline-block;
     animation: irony 0.9s linear infinite;
@@ -7,3 +8,57 @@
   50% { transform: skew(15deg, 0deg); }
   100% { transform: skew(-15deg,0deg); }
 }
+
+/* Awesome */
+.awesome{
+    display: inline-block;
+    margin:auto .2em;
+    animation: awesome 0.9s linear infinite;
+}
+@keyframes awesome {
+  66% { transform: scale(1.2); }
+}
+
+/* Pony 
+The number of letter was determined by the lenght of the word :" Donaudampfschiffahrtsgesellschaftskapitän "*/
+
+.pony{
+    display: inline-block;
+  	color:red
+}
+.pony .char1{color:#e67e22}
+.pony .char2{color:#27ae60}
+.pony .char3{color:#3498db}
+.pony .char4{color:#e74c3c}
+.pony .char5{color:#16a085}
+.pony .char6{color:#f1c40f}
+.pony .char7{color:#8e44ad}
+.pony .char8{color:#d35400}
+.pony .char9{color:#34495e}
+.pony .char10{color:#2ecc71}
+.pony .char11{color:#1abc9c}
+.pony .char12{color:#e67e22}
+.pony .char13{color:#27ae60}
+.pony .char14{color:#3498db}
+.pony .char15{color:#e74c3c}
+.pony .char16{color:#16a085}
+.pony .char17{color:#f1c40f}
+.pony .char18{color:#8e44ad}
+.pony .char19{color:#d35400}
+.pony .char20{color:#34495e}
+.pony .char21{color:#2ecc71}
+.pony .char22{color:#1abc9c}
+.pony .char23{color:#e67e22}
+.pony .char24{color:#27ae60}
+.pony .char25{color:#3498db}
+.pony .char26{color:#e74c3c}
+.pony .char27{color:#16a085}
+.pony .char28{color:#f1c40f}
+.pony .char29{color:#8e44ad}
+.pony .char30{color:#d35400}
+.pony .char31{color:#34495e}
+.pony .char32{color:#2ecc71}
+.pony .char33{color:#1abc9c}
+.pony .char34{color:#e67e22}
+
+

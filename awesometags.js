@@ -1,6 +1,13 @@
 /* awesome-tags */
 $(document).ready(function(){ 
+  //Irony
   $("body").find("irony").addClass('irony');
+
+  //Awesome
+  $("body").find("awesome").addClass('awesome');
+
+  //Pony
+  $("body").find("pony").addClass('pony').lettering();
 });
 
  
