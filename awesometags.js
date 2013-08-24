@@ -8,6 +8,9 @@ $(document).ready(function(){
 
   //Pony
   $("body").find("pony").addClass('pony').lettering();
+
+  //Magic-Pony
+  $("body").find("magic-pony").addClass('magic-pony').lettering();
 });
  
  
