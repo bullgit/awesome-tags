@@ -5,16 +5,17 @@ body {
 }
 article {
   width: 80%;
-  margin: 2em auto;
-  text-align: justify;
-  background: #eee;
-  padding: 0.5em 1em;
-  float:left;
+margin: 2em 10%;
+text-align: justify;
+background: #eee;
+padding: 0.5em 1em;
+float: left;
 }
 ul{  
   display:block;
+  float: left;
   width: 80%;
-  margin:2em auto;
+  margin: 2em 10%;
 }
 h1 {
   color: #eee;
