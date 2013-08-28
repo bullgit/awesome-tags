@@ -19,7 +19,7 @@ float: left;
 }
 ul{  
   display:block;
-  float: left;
+  float: left; 
   width: 80%;
   margin: .5em 10%;
 }
@@ -64,4 +64,3 @@ ul li:hover{
 ul li:hover a{
   color:#ECF0FA;
 }
- 
