@@ -38,7 +38,7 @@ $.error('Method '+method+' does not exist on jQuery.lettering');return this;};})
 dren("br").replaceWith(r).end(), r, 'line', '');
 			});
 
-		}
+		} 
 	};
 
 	$.fn.lettering = function( method ) {
