@@ -10,6 +10,11 @@ article {
   background: #eee;
   padding: 0.5em 1em;
 }
+ul{  
+  display:block;
+  width: 80%;
+  margin:2em auto;
+}
 h1 {
   color: #eee;
 }
@@ -26,3 +31,17 @@ article h2 {
   color:#000;
 }
 
+ul li{
+  display:block;
+  float:left;
+  padding:.5em;
+  min-width:5em;
+  width:auto;
+  margin:.4em;
+  cursor:pointer;
+  background:#ecf0f1;
+}
+ul li:hover{
+  background:#3498db;
+  color:#ECF0FA;
+}
