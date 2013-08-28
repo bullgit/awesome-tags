@@ -53,5 +53,4 @@ dren("br").replaceWith(r).end(), r, 'line', '');
 	};
 
 })(jQuery);
-=======
 
