@@ -1,4 +1,9 @@
+/* Flat github ribbon */
 @import 'http://codepen.io/TimPietrusky/pen/ysqrg.css'; 
+.ribbon{position:fixed}
+/**/
+
+
 body {
   background: #333;
   color: #000;

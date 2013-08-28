@@ -24,7 +24,7 @@ The number of letter was determined by the lenght of the word :" Donaudampfschif
 
 .pony{
     display: inline-block;
-  	color:red
+    color:red
 }
 .pony .char1{color:#e67e22}
 .pony .char2{color:#27ae60}
@@ -64,7 +64,7 @@ The number of letter was determined by the lenght of the word :" Donaudampfschif
 /* Magic-Pony (proposal for the pony tag) */
 .magic-pony{
     display: inline-block;
-  	color:red
+    color:red
 }
 .magic-pony .char1{color:#e67e22}
 .magic-pony .char2{color:#27ae60}
@@ -114,12 +114,12 @@ The number of letter was determined by the lenght of the word :" Donaudampfschif
   margin:-.0em 2%;
   background:;
   box-shadow: 0 -3px 0px 1px red,
-		      0 -4px 0px 2px orange,
-		      0 -5px 0px 3px yellow,
-		      0 -7px 0px 4px green,
-		      0 -7px 0px 5px lightblue,
-		      0 -7px 0px 6px blue,
-		      0 -7px 0px 7px violet;
+          0 -4px 0px 2px orange,
+          0 -5px 0px 3px yellow,
+          0 -7px 0px 4px green,
+          0 -7px 0px 5px lightblue,
+          0 -7px 0px 6px blue,
+          0 -7px 0px 7px violet;
 }
 
 /* Brilliant  */
