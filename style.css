@@ -13,6 +13,10 @@ article {
 h1 {
   color: #eee;
 }
-h2 {
+h2{color:#fff;border:0;}
+h2 a {color:inherit}
+article h2 {
   border-bottom: 3px solid #ccc;
+  color:#000;
 }
+
