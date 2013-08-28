@@ -11,6 +11,9 @@ $(document).ready(function(){
 
   //Magic-Pony
   $("body").find("magic-pony").addClass('magic-pony').lettering();
+
+  //Brilliant
+  $("body").find("brilliant").addClass('brilliant');
 });
  
  

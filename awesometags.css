@@ -121,3 +121,27 @@ The number of letter was determined by the lenght of the word :" Donaudampfschif
 		      0 -7px 0px 6px blue,
 		      0 -7px 0px 7px violet;
 }
+
+/* Brilliant  */
+.brilliant{
+    display: inline-block;
+    margin:auto .2em;
+    animation: brilliant 0.55s linear infinite;
+}
+@keyframes brilliant {
+  0%{
+    text-shadow:0 0 2px #FFF549;
+  }
+  33%{
+    transform:rotate(5deg);
+  }
+  66% { 
+    transform: translateY(-4px) scale(1.1) ;
+    text-shadow:0 0 15px #FFF549;
+  }
+  99%{
+    transform: rotate(-5deg);
+
+  }
+} 
+
