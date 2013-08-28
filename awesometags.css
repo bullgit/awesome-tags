@@ -145,3 +145,27 @@ The number of letter was determined by the lenght of the word :" Donaudampfschif
   }
 } 
 
+/* Clunky */
+.clunky span {
+    display: inline-block;
+    margin: .04em;
+    transition: all .4s ease;
+}
+.clunky span:nth-child(odd) {
+    -webkit-transform: translateY(1px);
+    animation: clunky .09s linear infinite;
+}
+.clunky span:nth-child(even) {
+    -webkit-transform: translateY(-1px);
+    animation: anti_clunky .09s linear infinite ;
+}
+@keyframes clunky { 
+    66% {
+        -webkit-transform: translateY(-1px);
+    }
+}
+@keyframes anti_clunky { 
+    66% {
+        -webkit-transform: translateY(1px);
+    }
+}
