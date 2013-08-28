@@ -1,0 +1,171 @@
+/* Irony */
+.irony{
+    display: inline-block;
+    animation: irony 0.9s linear infinite;
+}
+@keyframes irony {
+  0% { transform: skew(-15deg,0deg); }
+  50% { transform: skew(15deg, 0deg); }
+  100% { transform: skew(-15deg,0deg); }
+}
+
+/* Awesome */
+.awesome{
+    display: inline-block;
+    margin:auto .2em;
+    animation: awesome 0.9s linear infinite;
+}
+@keyframes awesome {
+  66% { transform: scale(1.2); }
+} 
+
+/* Pony 
+The number of letter was determined by the lenght of the word :" Donaudampfschiffahrtsgesellschaftskapitän "*/
+
+.pony{
+    display: inline-block;
+    color:red
+}
+.pony .char1{color:#e67e22}
+.pony .char2{color:#27ae60}
+.pony .char3{color:#3498db}
+.pony .char4{color:#e74c3c}
+.pony .char5{color:#16a085}
+.pony .char6{color:#f1c40f}
+.pony .char7{color:#8e44ad}
+.pony .char8{color:#d35400}
+.pony .char9{color:#34495e}
+.pony .char10{color:#2ecc71}
+.pony .char11{color:#1abc9c}
+.pony .char12{color:#e67e22}
+.pony .char13{color:#27ae60}
+.pony .char14{color:#3498db}
+.pony .char15{color:#e74c3c}
+.pony .char16{color:#16a085}
+.pony .char17{color:#f1c40f}
+.pony .char18{color:#8e44ad}
+.pony .char19{color:#d35400}
+.pony .char20{color:#34495e}
+.pony .char21{color:#2ecc71}
+.pony .char22{color:#1abc9c}
+.pony .char23{color:#e67e22}
+.pony .char24{color:#27ae60}
+.pony .char25{color:#3498db}
+.pony .char26{color:#e74c3c}
+.pony .char27{color:#16a085}
+.pony .char28{color:#f1c40f}
+.pony .char29{color:#8e44ad}
+.pony .char30{color:#d35400}
+.pony .char31{color:#34495e}
+.pony .char32{color:#2ecc71}
+.pony .char33{color:#1abc9c}
+.pony .char34{color:#e67e22}
+
+/* Magic-Pony (proposal for the pony tag) */
+.magic-pony{
+    display: inline-block;
+    color:red
+}
+.magic-pony .char1{color:#e67e22}
+.magic-pony .char2{color:#27ae60}
+.magic-pony .char3{color:#3498db}
+.magic-pony .char4{color:#e74c3c}
+.magic-pony .char5{color:#16a085}
+.magic-pony .char6{color:#f1c40f}
+.magic-pony .char7{color:#8e44ad}
+.magic-pony .char8{color:#d35400}
+.magic-pony .char9{color:#34495e}
+.magic-pony .char10{color:#2ecc71}
+.magic-pony .char11{color:#1abc9c}
+.magic-pony .char12{color:#e67e22}
+.magic-pony .char13{color:#27ae60}
+.magic-pony .char14{color:#3498db}
+.magic-pony .char15{color:#e74c3c}
+.magic-pony .char16{color:#16a085}
+.magic-pony .char17{color:#f1c40f}
+.magic-pony .char18{color:#8e44ad}
+.magic-pony .char19{color:#d35400}
+.magic-pony .char20{color:#34495e}
+.magic-pony .char21{color:#2ecc71}
+.magic-pony .char22{color:#1abc9c}
+.magic-pony .char23{color:#e67e22}
+.magic-pony .char24{color:#27ae60}
+.magic-pony .char25{color:#3498db}
+.magic-pony .char26{color:#e74c3c}
+.magic-pony .char27{color:#16a085}
+.magic-pony .char28{color:#f1c40f}
+.magic-pony .char29{color:#8e44ad}
+.magic-pony .char30{color:#d35400}
+.magic-pony .char31{color:#34495e}
+.magic-pony .char32{color:#2ecc71}
+.magic-pony .char33{color:#1abc9c}
+.magic-pony .char34{color:#e67e22}
+
+/* Magic-Pony - Rainbow */
+.magic-pony:before{
+  content:"";
+  display:block;
+  position:absolute;
+  z-index:0; 
+  width:3em;
+  height:20px;
+  border-radius:100%;
+  opacity:.15;
+  margin:-.0em 2%;
+  background:;
+  box-shadow: 0 -3px 0px 1px red,
+          0 -4px 0px 2px orange,
+          0 -5px 0px 3px yellow,
+          0 -7px 0px 4px green,
+          0 -7px 0px 5px lightblue,
+          0 -7px 0px 6px blue,
+          0 -7px 0px 7px violet;
+}
+
+/* Brilliant  */
+.brilliant{
+    display: inline-block;
+    margin:auto .2em;
+    animation: brilliant 0.55s linear infinite;
+}
+@keyframes brilliant {
+  0%{
+    text-shadow:0 0 2px #FFF549;
+  }
+  33%{
+    transform:rotate(5deg);
+  }
+  66% { 
+    transform: translateY(-4px) scale(1.1) ;
+    text-shadow:0 0 15px #FFF549;
+  }
+  99%{
+    transform: rotate(-5deg);
+
+  }
+} 
+
+/* Clunky */
+.clunky span {
+    display: inline-block;
+    margin: .04em;
+    transition: all .4s ease;
+}
+.clunky span:nth-child(odd) {
+    -webkit-transform: translateY(1px);
+    animation: clunky .09s linear infinite;
+}
+.clunky span:nth-child(even) {
+    -webkit-transform: translateY(-1px);
+    animation: anti_clunky .09s linear infinite ;
+}
+@keyframes clunky { 
+    66% {
+        -webkit-transform: translateY(-1px);
+    }
+}
+@keyframes anti_clunky { 
+    66% {
+        -webkit-transform: translateY(1px);
+    }
+}
