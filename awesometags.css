@@ -113,11 +113,35 @@ The number of letter was determined by the lenght of the word :" Donaudampfschif
   opacity:.15;
   margin:-.0em 2%;
   background:;
-  box-shadow: 0 0 2px 1px red,
-            0 0 2px 2px orange,
-            0 0 2px 3px yellow,
-            0 0 2px 4px green,
-            0 0 2px 5px lightblue,
-            0 0 2px 6px blue,
-            0 0 2px 7px violet;
+  box-shadow: 0 -3px 0px 1px red,
+		      0 -4px 0px 2px orange,
+		      0 -5px 0px 3px yellow,
+		      0 -7px 0px 4px green,
+		      0 -7px 0px 5px lightblue,
+		      0 -7px 0px 6px blue,
+		      0 -7px 0px 7px violet;
 }
+
+/* Brilliant  */
+.brilliant{
+    display: inline-block;
+    margin:auto .2em;
+    animation: brilliant 0.55s linear infinite;
+}
+@keyframes brilliant {
+  0%{
+    text-shadow:0 0 2px #FFF549;
+  }
+  33%{
+    transform:rotate(5deg);
+  }
+  66% { 
+    transform: translateY(-4px) scale(1.1) ;
+    text-shadow:0 0 15px #FFF549;
+  }
+  99%{
+    transform: rotate(-5deg);
+
+  }
+} 
+
