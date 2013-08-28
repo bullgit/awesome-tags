@@ -5,10 +5,17 @@ body {
 }
 article {
   width: 80%;
-  margin: 2em auto;
-  text-align: justify;
-  background: #eee;
-  padding: 0.5em 1em;
+margin: 2em 10%;
+text-align: justify;
+background: #eee;
+padding: 0.5em 1em;
+float: left;
+}
+ul{  
+  display:block;
+  float: left;
+  width: 80%;
+  margin: 2em 10%;
 }
 h1 {
   color: #eee;
@@ -26,3 +33,17 @@ article h2 {
   color:#000;
 }
 
+ul li{
+  display:block;
+  float:left;
+  padding:.5em;
+  min-width:5em;
+  width:auto;
+  margin:.4em;
+  cursor:pointer;
+  background:#ecf0f1;
+}
+ul li:hover{
+  background:#3498db;
+  color:#ECF0FA;
+}
