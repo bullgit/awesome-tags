@@ -9,6 +9,7 @@ article {
   text-align: justify;
   background: #eee;
   padding: 0.5em 1em;
+  float:left;
 }
 ul{  
   display:block;
